@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{595C97D3-9794-4B36-B65A-450200CC1442}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>вє∂ѕ ρяσтє¢тσя - 172704868620470655686379755</RootNamespace>
+    <AssemblyName>вє∂ѕ ρяσтє¢тσя - 172704868620470655686379755</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>вє∂ѕ ρяσтє¢тσя - 172704868620470655686379755.ico</ApplicationIcon>
+    <StartupObject>KeyAuth.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AlphaGradientPanel">
+      <HintPath>..\..\AlphaGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="netstandard" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.UI">
+      <HintPath>..\..\Siticone.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="10570e15.cs" />
+    <Compile Include="10618832.cs" />
+    <Compile Include="10bcbca.cs" />
+    <Compile Include="10dd90dc.cs" />
+    <Compile Include="10e6a946.cs" />
+    <Compile Include="14c63f76.cs" />
+    <Compile Include="1581069d.cs" />
+    <Compile Include="163a777b.cs" />
+    <Compile Include="16e0fedb.cs" />
+    <Compile Include="174d66ce.cs" />
+    <Compile Include="1a01fb22.cs" />
+    <Compile Include="1a9e6277.cs" />
+    <Compile Include="1beaa6fd.cs" />
+    <Compile Include="1ff9aef9.cs" />
+    <Compile Include="20840870.cs" />
+    <Compile Include="21830ca3.cs" />
+    <Compile Include="2258cc11.cs" />
+    <Compile Include="238d8dde.cs" />
+    <Compile Include="23a89a9a.cs" />
+    <Compile Include="2554693f.cs" />
+    <Compile Include="264f2aa4.cs" />
+    <Compile Include="26b164ef.cs" />
+    <Compile Include="26c13d65.cs" />
+    <Compile Include="2b68c716.cs" />
+    <Compile Include="2b9c143a.cs" />
+    <Compile Include="31924f80.cs" />
+    <Compile Include="33cd5b0d.cs" />
+    <Compile Include="36206ad1.cs" />
+    <Compile Include="45263f4a.cs" />
+    <Compile Include="461c8a90.cs" />
+    <Compile Include="484cc138.cs" />
+    <Compile Include="48621248.cs" />
+    <Compile Include="49e9163c.cs" />
+    <Compile Include="49edc1.cs" />
+    <Compile Include="4af687d6.cs" />
+    <Compile Include="4bd39ba5.cs" />
+    <Compile Include="4c713fd5.cs" />
+    <Compile Include="4db0bd78.cs" />
+    <Compile Include="4dd1decc.cs" />
+    <Compile Include="5170010f.cs" />
+    <Compile Include="52a22931.cs" />
+    <Compile Include="53aa0589.cs" />
+    <Compile Include="5405069e.cs" />
+    <Compile Include="5a2ae3d0.cs" />
+    <Compile Include="5d010e8d.cs" />
+    <Compile Include="62af8ce4.cs" />
+    <Compile Include="62c7799b.cs" />
+    <Compile Include="630a89a6.cs" />
+    <Compile Include="6a508297.cs" />
+    <Compile Include="6cae0349.cs" />
+    <Compile Include="6e250c04.cs" />
+    <Compile Include="6f0d3a06.cs" />
+    <Compile Include="774cbf0a.cs" />
+    <Compile Include="790cafc8.cs" />
+    <Compile Include="796b0f30.cs" />
+    <Compile Include="7978a4b2.cs" />
+    <Compile Include="7a4f305d.cs" />
+    <Compile Include="7d18b560.cs" />
+    <Compile Include="7dc3da6e.cs" />
+    <Compile Include="7fcfc6b.cs" />
+    <Compile Include="84e2f68b.cs" />
+    <Compile Include="867a1c12.cs" />
+    <Compile Include="8730f0fa.cs" />
+    <Compile Include="876ca2e1.cs" />
+    <Compile Include="87c6d1a2.cs" />
+    <Compile Include="88f91d3d.cs" />
+    <Compile Include="89f310ff.cs" />
+    <Compile Include="8a9bd8cf.cs" />
+    <Compile Include="8af26fe2.cs" />
+    <Compile Include="8e903c69.cs" />
+    <Compile Include="90c88bbb.cs" />
+    <Compile Include="93359f28.cs" />
+    <Compile Include="944ddc58.cs" />
+    <Compile Include="944f0596.cs" />
+    <Compile Include="994e98c0.cs" />
+    <Compile Include="9aa017f.cs" />
+    <Compile Include="9aa59087.cs" />
+    <Compile Include="9b26e23e.cs" />
+    <Compile Include="9d151651.cs" />
+    <Compile Include="9e79f867.cs" />
+    <Compile Include="a0c9cd35.cs" />
+    <Compile Include="a4d544eb.cs" />
+    <Compile Include="b0e33cb9.cs" />
+    <Compile Include="b39b2485.cs" />
+    <Compile Include="b606ba66.cs" />
+    <Compile Include="b6f900ab.cs" />
+    <Compile Include="b8ce7618.cs" />
+    <Compile Include="BabelObfuscatorAttribute.cs" />
+    <Compile Include="bcd9cc20.cs" />
+    <Compile Include="bcff4d82.cs" />
+    <Compile Include="beb75257.cs" />
+    <Compile Include="Beds-Protector.cs" />
+    <Compile Include="bf736a52.cs" />
+    <Compile Include="c1513df6.cs" />
+    <Compile Include="c37e2793.cs" />
+    <Compile Include="c4a6d154.cs" />
+    <Compile Include="c9a038a7.cs" />
+    <Compile Include="cb4e5b7c.cs" />
+    <Compile Include="ccf7bdaa.cs" />
+    <Compile Include="cd0dde88.cs" />
+    <Compile Include="cdd1c92b.cs" />
+    <Compile Include="ce0b1e0e.cs" />
+    <Compile Include="cfcf49ad.cs" />
+    <Compile Include="CrytpoObfuscator.cs" />
+    <Compile Include="d009fcdf.cs" />
+    <Compile Include="d064add9.cs" />
+    <Compile Include="d6569063.cs" />
+    <Compile Include="d814dab4.cs" />
+    <Compile Include="dc32a2c5.cs" />
+    <Compile Include="de06eb40.cs" />
+    <Compile Include="de4fuckyou.cs" />
+    <Compile Include="deea4019.cs" />
+    <Compile Include="e035c683.cs" />
+    <Compile Include="e321097e.cs" />
+    <Compile Include="e37575b3.cs" />
+    <Compile Include="e3f4c8a1.cs" />
+    <Compile Include="e80614cd.cs" />
+    <Compile Include="e8157047.cs" />
+    <Compile Include="eb704c8e.cs" />
+    <Compile Include="ecc3ec2c.cs" />
+    <Compile Include="ef86498c.cs" />
+    <Compile Include="f087c8e3.cs" />
+    <Compile Include="f6dce402.cs" />
+    <Compile Include="fd26def5.cs" />
+    <Compile Include="KeyAuth\api.cs" />
+    <Compile Include="KeyAuth\encryption.cs" />
+    <Compile Include="KeyAuth\json_wrapper.cs" />
+    <Compile Include="KeyAuth\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyAuth\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyAuth\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyAuth\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyAuth\Program.cs" />
+    <Compile Include="KoiVM\Runtime\VMEntry.cs" />
+    <Compile Include="ObfuscatedByGoliath.cs" />
+    <Compile Include="OiCuntJollyGoodDayYeHavin___________________________________.cs" />
+    <Compile Include="OldRod\Core\CodeGen\VmHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reactor.cs" />
+    <Compile Include="SuperSpoofer\dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Extras\executor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Extras\executor.Designer.cs">
+      <DependentUpon>executor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Extras\policyuse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Extras\policyuse.Designer.cs">
+      <DependentUpon>policyuse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Extras\WebhookTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Extras\WebhookTool.Designer.cs">
+      <DependentUpon>WebhookTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Settings\reportabug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Settings\reportabug.Designer.cs">
+      <DependentUpon>reportabug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Settings\settingslockedserials.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Settings\settingslockedserials.Designer.cs">
+      <DependentUpon>settingslockedserials.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Settings\settingsuserdetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Settings\settingsuserdetails.Designer.cs">
+      <DependentUpon>settingsuserdetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Spoofer\accountunlink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Spoofer\accountunlink.Designer.cs">
+      <DependentUpon>accountunlink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Spoofer\fivembuildchanger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\Forms___Spoofer\fivembuildchanger.Designer.cs">
+      <DependentUpon>fivembuildchanger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\gamespoofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\gamespoofer.Designer.cs">
+      <DependentUpon>gamespoofer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\Http.cs" />
+    <Compile Include="SuperSpoofer\Properties\Resources.cs" />
+    <Compile Include="SuperSpoofer\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SuperSpoofer\spooferfixes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\spooferfixes.Designer.cs">
+      <DependentUpon>spooferfixes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\systemspoofer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\systemspoofer.Designer.cs">
+      <DependentUpon>systemspoofer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\userinformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\userinformation.Designer.cs">
+      <DependentUpon>userinformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\UserSettingsOptions\changepassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\UserSettingsOptions\changepassword.Designer.cs">
+      <DependentUpon>changepassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperSpoofer\UserSettingsOptions\extendsubscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperSpoofer\UserSettingsOptions\extendsubscription.Designer.cs">
+      <DependentUpon>extendsubscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VM.cs" />
+    <Compile Include="VMProtect.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="KeyAuth\Login.resources" />
+    <EmbeddedResource Include="KeyAuth\Main.resources" />
+    <EmbeddedResource Include="SuperSpoofer\dashboard.resources" />
+    <EmbeddedResource Include="SuperSpoofer\Forms___Extras\executor.resources" />
+    <EmbeddedResource Include="SuperSpoofer\Forms___Extras\policyuse.resources" />
+    <EmbeddedResource Include="SuperSpoofer\Forms___Extras\WebhookTool.resources" />
+    <EmbeddedResource Include="SuperSpoofer\Forms___Settings\reportabug.resources" />
+    <EmbeddedResource Include="SuperSpoofer\Forms___Settings\settingslockedserials.resources" />
+    <EmbeddedResource Include="SuperSpoofer\Forms___Settings\settingsuserdetails.resources" />
+    <EmbeddedResource Include="SuperSpoofer\Forms___Spoofer\accountunlink.resources" />
+    <EmbeddedResource Include="SuperSpoofer\Forms___Spoofer\fivembuildchanger.resources" />
+    <EmbeddedResource Include="SuperSpoofer\gamespoofer.resources" />
+    <EmbeddedResource Include="SuperSpoofer\Properties\Resources.resources" />
+    <EmbeddedResource Include="SuperSpoofer\spooferfixes.resources" />
+    <EmbeddedResource Include="SuperSpoofer\systemspoofer.resources" />
+    <EmbeddedResource Include="SuperSpoofer\userinformation.resources" />
+    <EmbeddedResource Include="SuperSpoofer\UserSettingsOptions\changepassword.resources" />
+    <EmbeddedResource Include="SuperSpoofer\UserSettingsOptions\extendsubscription.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="SuperSpoofer\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
